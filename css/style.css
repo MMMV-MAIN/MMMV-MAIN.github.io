@@ -1,3 +1,47 @@
 #footer {
     background: transparent;
 }
+
+/*GitHub开源圆角*/
+#card-info-btn {
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+/*右下角按钮*/
+#rightside > div > button, #rightside > div > a {
+  display: block;
+  margin-bottom: 6px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  color: #2d587a;
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+/*顶栏美化*/
+#nav .site-page {
+  font-size: 1em; /*字体大小*/
+  letter-spacing: 3px; /*字体间距*/
+  font-weight: 520; /*字体粗细*/
+}
+
+#nav {
+  height: 70px; /*顶栏高度调整*/
+}
+#page-header.nav-fixed #nav {
+  top: -70px; /*顶栏调整空缺补齐*/
+}
+
+
+#nav .menus_items {
+    position: absolute;
+    width: fit-content;
+    left: 69%;
+    top: 20%;
+
+}
+
